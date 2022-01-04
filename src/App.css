@@ -1,0 +1,62 @@
+.App {
+  padding : 20px;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: 
+  url("https://images.pexels.com/photos/531972/pexels-photo-531972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") 
+  center center ;
+  
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.App__container{
+  background: rgba( 255, 255, 255, 0.05 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 12px );
+  -webkit-backdrop-filter: blur( 12px );
+  border-radius: 30px;
+  text-align: center;
+  height:100vh;
+  display:flex;
+  justify-content:space-evenly;
+  justify-content:center;
+  align-items:center;    flex-direction: column;
+
+}
+.App__info {
+  padding:10px;
+}
+@media (max-width: 768px){
+  .App__container{
+    flex-direction: column;
+  }
+  input[type=text] {
+    width: 75px;
+  }
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius:20px;
+  outline: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+.button {
+  /* background-color: ; */
+   border: none;
+  color: #333;
+   padding: 10px 25px;
+   text-align: center;
+  text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 4px;
+   cursor: pointer;
+   border-radius: 8px;
+ }
